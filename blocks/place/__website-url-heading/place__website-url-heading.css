@@ -10,15 +10,3 @@
       display: none;
     }
   }
-  
-  @media screen and (max-width: 768px) {
-    .place__website-url-heading {
-
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .place__website-url-heading {
-  
-    }
-  }

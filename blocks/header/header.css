@@ -1,5 +1,6 @@
 @import url("./logo/logo.css");
 @import url("./__lang-link/header__lang-link.css");
+@import url("./__lang-link/_selected/header__lang-link_selected.css");
 
 .header {
   margin: 34px auto 0;

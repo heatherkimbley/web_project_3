@@ -1,10 +1,11 @@
 @import url("./__item/photo-grid__item.css");
+
 .photo-grid {
   margin: 0 auto;
   max-width: 928px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 14px;
+  grid-gap: 14px
 }
 
 @media screen and (max-width: 425px) {

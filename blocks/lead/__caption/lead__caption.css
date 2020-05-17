@@ -3,28 +3,5 @@
   line-height: 14px;
   max-width: 183px;
   margin: 0;
+  text-transform: uppercase;
 }
-
-@media screen and (max-width: 425px) {
-    .lead__caption {
-      
-    }
-  }
-  
-  @media screen and (max-width: 766px) {
-    .lead__caption {
-      
-    }
-  }
-  
-  @media screen and (max-width: 1023px) {
-    .lead__caption {
-          
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .lead__caption {
-  
-    }
-  }

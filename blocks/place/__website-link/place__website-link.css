@@ -5,20 +5,12 @@
   color: #FFF;
 }
 
+.place__website-link:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 425px) {
     .place__website-link {
       display: none;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .place__website-link {
-
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .place__website-link {
-
     }
   }

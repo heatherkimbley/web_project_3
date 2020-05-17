@@ -3,9 +3,9 @@
   position: absolute;
   top: 30%;
   left: 0;
-  bottom: 0;
+  bottom: 70%;
   right: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   max-width: 656px;
   font-weight: 900;
@@ -18,15 +18,5 @@
       font-size: 32px;
       line-height: 35px;
       max-width: 288px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .cover__title {
-    }
-  }
-
-  @media screen and (min-width: 1280px) {
-    .cover__title {
     }
   }

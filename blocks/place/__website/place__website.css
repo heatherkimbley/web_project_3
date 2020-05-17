@@ -14,15 +14,3 @@
       max-width: 352px;
     }
   }
-  
-  @media screen and (max-width: 1023px) {
-    .place__website {
-          
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .place__website {
-  
-    }
-  }

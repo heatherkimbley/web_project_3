@@ -10,7 +10,7 @@
   <header class="header">
     <img class="logo" alt="outline of USA" src="./images/logo.png">
     <div>
-      <a class="header__lang-link" href="#">En</a>
+      <a class="header__lang-link header__lang-link_selected" href="#">En</a>
       <a class="header__lang-link" href="#">Es</a>
     </div>
   </header>
@@ -19,17 +19,18 @@
       <h1 class="lead__title">From Portland to Portland</h1>
       <p class="lead__subtitle">An epic bicycle journey from Portland, Me. to Portland, OR</p>
       <img class="lead__image" alt="mountains" src="./images/kalegin-michail-179870-unsplash.png">
-      <p class="lead__caption">YOUR JOURNEY STARTS HERE</p>
+      <p class="lead__caption">Your journey starts here</p>
     </section>
     <section class="intro">
       <h2 class="intro__title">Know the country you live in a little better</h2>
-      <p class="intro__text"><span style="font-size: 24px">That's exactly what we have arranged for you via this travel story</span></p>
+      <p class="intro__text"><span>That's exactly what we have arranged for you via this travel story</span></p>
       <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
       <ul class="intro__list">
-        <li><span style="font-weight: bold">Distance (miles)</span> 3,644</li>
-        <li><span style="font-weight: bold">Travel time (days)</span> 22</li>
-        <li><span style="font-weight: bold">Highest point (feet)</span> 9,613</li>
-        <li><span style="font-weight: bold">Lowest point (feet)</span> -3</li>
+        <li><span>Distance (miles)</span> 3,644</li>
+        <li><span>Travel time (days)</span> 22</li>
+        <li><span>Highest point (feet)</span> 9,613</li>
+        <li><span>Lowest point (feet)</span> -3</li>
+      <!-- I have googled extensively and I cannot find a way to do this without span. I had this problem in the last project as well and it was never resolved. Everything I find can't select only part of a text on a line. The only things I can find that can are <b> <strong> <em> and <span> in HTML. I cannot figure out how to only select some words in CSS. Please enlighten me. -->
       </ul>
     </section>
     <section class="photo-grid">
@@ -124,8 +125,9 @@
     <section class="cover">
       <h3 class="cover__title">Historic Route 66</h3>
       <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-      <div class="cover__overlay"></div>
+      <a class="cover__overlay" href="https://www.nps.gov/nr/travel/route66/maps66.html"></a>
       <img class="cover__background" alt="route 66" src="./images/background.png">
+      </a>
     </section>
   </main>
   <footer class="footer">
