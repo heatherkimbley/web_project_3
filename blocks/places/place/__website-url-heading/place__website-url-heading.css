@@ -1,0 +1,24 @@
+.place__website-url-heading {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAA;
+}
+
+@media screen and (max-width: 425px) {
+    .place__website-url-heading {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__website-url-heading {
+
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .place__website-url-heading {
+  
+    }
+  }

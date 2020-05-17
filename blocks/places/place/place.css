@@ -1,0 +1,31 @@
+.place {
+  margin: 0 0 80px 0;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 564px;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+      margin: 0 0 48px 0;
+      grid-column-gap: 0px;
+    }
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place {
+      margin: 0 0 72px 0;
+      grid-column-gap: 28px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .place {
+      grid-column-gap: 40px;
+    }
+  }

@@ -1,0 +1,42 @@
+.page {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  background-color: #2A2C2F;
+}
+
+
+@media screen and (max-width: 425px) {
+    .SELECTOR {
+      
+    }
+  }
+  
+  @media screen and (max-width: 766px) {
+    .SELECTOR {
+      
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .SELECTOR {
+          
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .SELECTOR {
+  
+    }
+  }

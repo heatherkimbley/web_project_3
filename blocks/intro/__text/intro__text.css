@@ -1,0 +1,27 @@
+.intro__text {
+  margin: 0 0 32px 0;
+}
+
+@media screen and (max-width: 425px) {
+    .SELECTOR {
+      
+    }
+  }
+  
+  @media screen and (max-width: 766px) {
+    .SELECTOR {
+      
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .SELECTOR {
+          
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .SELECTOR {
+  
+    }
+  }
