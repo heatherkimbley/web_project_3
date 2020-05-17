@@ -3,7 +3,6 @@
   line-height: 12px;
   letter-spacing: 0.2em;
   color: #AAA;
-  grid-area: website-url-heading;
 }
 
 @media screen and (max-width: 425px) {

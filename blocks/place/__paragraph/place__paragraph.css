@@ -1,7 +1,7 @@
 .place__paragraph {
   font-size: 16px;
   line-height: 26px;
-  grid-area: paragraph;
+  margin: 0;
 }
 
 .place__paragraph span {

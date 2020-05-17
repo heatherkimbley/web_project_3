@@ -3,6 +3,7 @@
 @import url("./__website/place__website.css");
 @import url("./__website-link/place__website-link.css");
 @import url("./__website-url-heading/place__website-url-heading.css");
+@import url("./__paragraphs/place__paragraphs.css");
 @import url("./__paragraph/place__paragraph.css");
 
 
@@ -15,11 +16,7 @@
   grid-gap: 32px;
   grid-template-areas:
     "title website"
-    "title website-link"
-    "title website-url-heading"
-    "image paragraph"
-    "image paragraph"
-    "image paragraph";
+    "image paragraphs";
 }
 
 .place:last-of-type {
