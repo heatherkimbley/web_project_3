@@ -1,8 +1,7 @@
 .place__paragraph {
-  width: 100%;
-  max-width: 456px;
   font-size: 16px;
   line-height: 26px;
+  grid-area: paragraph;
 }
 
 .place__paragraph span {
@@ -11,9 +10,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .place__paragraph {
-    max-width: 288px;
-}
+
 
   .place__paragraph span {
     font-size: 16px;
@@ -22,9 +19,7 @@
 }
   
 @media screen and (max-width: 768px) {
-  .place__paragraph {
-    max-width: 352px;
-  }
+
 
   .place__paragraph span {
     font-size: 16px;
@@ -33,7 +28,5 @@
 }
   
   @media screen and (min-width: 1280px) {
-    .place__paragraph {
-      max-width: 484px;
-    }
+
   }
