@@ -1,32 +1,10 @@
+@import url("./__link/cover__link.css");
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
-@import url("./__overlay/cover__overlay.css");
 @import url("./__background/cover__background.css");
 
 .cover {
-  position: relative;
-  margin: 0 auto 92px;
   width: 100%;
-  max-width: 1024px;
-  overflow: hidden;
+  max-width: 1184px;
+  margin: 0 auto;
 }
-
-@media screen and (max-width: 425px) {
-    .cover {
-      margin: 0 auto 64px;
-      max-width: 320px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .cover {
-      margin: 0 auto 88px;
-      max-width: 768px;
-    }
-  }
-
-  @media screen and (min-width: 1280px) {
-    .cover {
-      max-width: 1184px;
-    }
-  }

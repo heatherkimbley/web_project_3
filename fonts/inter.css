@@ -19,3 +19,14 @@
        url("Inter-Bold.otf") format("otf"),
        url("Inter-Bold.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Inter-Black.woff2") format("woff2"),
+       url("Inter-Black.woff") format("woff");
+       url("Inter-Black.otf") format("otf");
+       url("Inter-Black.ttf") format("ttf");
+}

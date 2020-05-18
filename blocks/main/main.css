@@ -1,0 +1,27 @@
+@import url("./__content/main__content.css");
+
+.main {
+  margin: 58px auto 92px;
+  display: grid;
+  grid-row-gap: 92px;
+}
+
+@media screen and (max-width: 1180px) {
+  .main {
+    margin-top: 50px;      
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .main {
+    margin: 50px auto 88px;
+    grid-row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main {
+    margin: 50px auto 64px;
+    grid-row-gap: 64px;
+  }
+}

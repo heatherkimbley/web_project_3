@@ -6,18 +6,19 @@
   padding: 0;
 }
 
-.intro__list span {
+.intro__list .bold {
   font-weight: bold;
 }
 
-@media screen and (max-width: 425px) {
-    .intro__list {
-      margin-bottom: 64px;
-    }
+@media screen and (max-width: 980px) {
+  .intro__list {
+    margin-bottom: 88px;
   }
+}
+
+@media screen and (max-width: 580px) {
+  .intro__list {
+    margin-bottom: 64px;
+  }
+}
   
-  @media screen and (max-width: 766px) {
-    .intro__list {
-      margin-bottom: 88px;
-    }
-  }

@@ -1,20 +1,25 @@
 .place__image {
   position: relative;
   grid-area: image;
+  object-fit: contain;
+  width: 100%;
+  max-width: 460px;
 }
 
-@media screen and (max-width: 425px) {
-    .place__image {
-    }
+@media screen and (max-width: 1180px) {
+  .place__image {
+    max-width: 440px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .place__image {
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .place__image {
+}
 
-    }
+@media screen and (max-width: 980px) {
+  .place__image {
+    max-width: 340px;
   }
+}
+
+@media screen and (max-width: 580px) {
+  .place__image {
+    max-width: 320px;
+  }
+}

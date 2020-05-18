@@ -4,26 +4,23 @@
 @import url("./__caption/lead__caption.css");
 
 .lead {
-  margin: 50px auto 0;
-  width: 100%;
-  max-width: 928px;
+  max-width: calc(100% - (100px * 2));
 }
 
-@media screen and (max-width: 425px) {
-    .lead {
-      max-width: 288px;
-    }
+@media screen and (max-width: 1180px) {
+  .lead {
+    max-width: calc(100% - (48px * 2));
   }
-  
-  @media screen and (max-width: 768px) {
-    .lead {
-      max-width: 720px;
-    }
-  }
+}
 
-  @media screen and (min-width: 1280px) {
-    .lead {
-      margin-top: 58px;
-      max-width: 984px;
-    }
+@media screen and (max-width: 980px) {
+  .lead {
+    max-width: 100%;
   }
+}
+
+@media screen and (max-width: 580px) {
+  .lead {
+    max-width: 100%;
+  }
+}
