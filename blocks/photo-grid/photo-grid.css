@@ -5,7 +5,6 @@
 .photo-grid {
   margin: 0 auto;
   max-width: 1184px;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1180px) {

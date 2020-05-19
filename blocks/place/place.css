@@ -41,7 +41,7 @@
 @media screen and (max-width: 580px) {
     .place {
       margin: 0 0 48px 0;
-      grid-column-gap: 0px;
+      grid-column-gap: 0;
       grid-template-columns: 1fr;
       grid-template-areas:
         "title"

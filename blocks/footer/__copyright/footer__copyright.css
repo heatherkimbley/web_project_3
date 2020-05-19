@@ -1,17 +1,14 @@
 .footer__copyright{
-  margin-right: 48px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   margin-top: 2px;
   text-align: right;
-  border: 1px solid red;
 }
   
 @media screen and (max-width:980px){
   .footer__copyright{
-    margin-right: 24px;
   }
 }
 
@@ -19,5 +16,6 @@
   .footer__copyright{
     line-height: 14px;
     margin-left: 16px;
+    text-align: left;
   }
 }
